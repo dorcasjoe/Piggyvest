@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+html{
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 0 solid #e2e8f0;
+    background-color: #062863;
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 15%, 15%, 15%, 15%;
+    background-image: url(3.png), url(2.png), url(1.png), url(4.png);
+    align-items: center;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+a{
+    padding: 3rem;
+    text-decoration: none;
+    color: white;
+}
+.body{
+    align-items: center;
+    background-color: white;
+    border-radius: 25px 25px 25px 0;
+    padding: 3rem;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h1{
+    color: #083e9e;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p{
+    font-size: .875rem;
+    color: #4a5568;
+    text-align: center;
+}
+
+h1, p{
+    margin: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.labels{
+    font-size: .75rem;
+    color: #4a5568;
+    margin-bottom: .25rem;
+    line-height: 2;
+    font-weight: 700;
+}
+
+input{
+    border: 0 solid #e2e8f0;
+    font-size: 100%;
+    background-color: #edf2f7;
+    color: #1a202c;
+    padding: 1rem;
+    width: 90%;
+    margin-bottom: .75rem;
+    border-radius: 5px;
+}
+select{
+    padding: 1rem;
+    background-color: #edf2f7;
+    border: medium none;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+button{
+    background-color: rgb(8, 62, 158);
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 1.25rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    border-bottom-right-radius: .75rem;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+    border: 0 solid #e2e8f0;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .body {
+        width: 70vw;
+        padding: 1.5rem;
+      }
+    }
